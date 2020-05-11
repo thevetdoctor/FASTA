@@ -12,7 +12,7 @@ mongoose.set("useCreateIndex", true);
 // eslint-disable-next-line camelcase
 const db_uri = process.env.DB_URL;
 
-console.log (db_uri); 
+// console.log (db_uri); 
 mongoose.connect(db_uri)
   .then(() => console.log("FASTA DB connected!"))
   .catch((error) => console.error(error.message));
