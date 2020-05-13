@@ -18,6 +18,7 @@
     "test:cover": "jest --coverage",
     "lint": "eslint \"src/**/*.js\"",
     "start": "node ./fasta-backend/bin/www",
+    "prestart": "cd fasta-backend && npm install",
     "dev": "nodemon ./fasta-backend/bin/www"
   },
   "author": {
